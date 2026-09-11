@@ -1,0 +1,15 @@
+{
+  "name": "omacash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first cashflow forecast for the Omarchy desktop",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

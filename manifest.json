@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "com.omacash.cashflow",
+  "name": "Omacash",
+  "version": "0.1.0",
+  "author": "Thiago Macedo",
+  "license": "MIT",
+  "homepage": "https://github.com/macedot/omacash",
+  "description": "Local-first cashflow forecast for the Omarchy desktop. No cloud. No tracking.",
+  "kinds": [
+    "bar-widget",
+    "panel"
+  ],
+  "entryPoints": {
+    "barWidget": "ui/CashBar.qml",
+    "panel": "ui/Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Omacash",
+    "description": "Cash on hand, upcoming bills, and expand",
+    "category": "Finance",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
